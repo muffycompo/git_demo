@@ -1,3 +1,5 @@
 <?php
 
-print phpinfo();
+function hello($name){
+	return 'Hello ' . $name;
+}
